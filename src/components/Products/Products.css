@@ -1,0 +1,91 @@
+.productsPage {
+  min-height: 80vh;
+}
+
+.products {
+  color: #333;
+  /*background-color: rgba(59,96,104,0.8);*/
+  /*background-color: #ff9800;*/
+  text-align: center;
+}
+
+/*.products img {
+  text-align: center;
+  margin: 0 auto;
+}*/
+
+.products ul {
+ columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  
+}
+
+.products li {
+  margin: .5rem;
+  font-size: 2rem;
+}
+
+.leftjust {
+  text-align: left;
+}
+
+.paddles {
+  margin-top: 9rem;
+}
+@media only screen and (min-width: 768px) {
+.productsPage {
+  padding-top: 20rem;
+}
+  
+}
+
+@media only screen and (max-width: 767px) {
+  .cooler {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+.emmaReg {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+.beerSelection {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+  .paddles {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+  .beer {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+  .conv {
+    padding-left: unset;
+  }
+}
+
+.centerH {
+  text-align: center;
+}
+
+.conv {
+  font-weight: normal;
+  text-align: center;
+  padding-left: unset;
+}
+
+.listUnstyled {
+  list-style: none;
+}

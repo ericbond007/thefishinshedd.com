@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+
+}
+
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.jumbotron {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.pageHeader {
+  margin-bottom: 8vh;
+}

@@ -1,0 +1,30 @@
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import HomePage from './containers/HomePage/HomePage';
+import ProductsPage from './containers/ProductsPage/ProductsPage';
+import DeliPage from './containers/DeliPage/DeliPage';
+import FishingPage from './containers/FishingPage/FishingPage';
+import StoryPage from './containers/StoryPage/StoryPage';
+import AppBar from './containers/AppBar/AppBar';
+import Footer from './components/Footer/Footer';
+import withTracker from './components/withTracker';
+
+import './App.css';
+
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+      <div>
+        <Route path="/" component={HomePage} />
+
+
+      </div>
+      </Router>
+    );
+  }
+}
+
+export default App;

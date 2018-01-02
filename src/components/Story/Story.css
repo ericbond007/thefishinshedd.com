@@ -1,0 +1,41 @@
+.story {
+  color: #333;
+  text-align: center;
+}
+
+.story p {
+  text-align: left;
+}
+
+.storyPage well {
+  color: #333;
+}
+
+#centered {
+  text-align: center;
+  text-indent: 0vh;
+}
+
+.storyembedd {
+  color: #333;
+}
+
+.storyembedd::first-letter {
+  font-size: 3.7rem;
+  font-weight: bold;
+}
+@media only screen and (max-width: 800px) {
+  .comingSoon img{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+  .firstSign img {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+}
+

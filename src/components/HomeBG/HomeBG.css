@@ -1,0 +1,42 @@
+
+.homeBG {
+  height: 60vh;
+  position: relative;
+}
+
+@media only screen and (max-width: 800px) {
+  .homeBG {
+    background-attachment: unset;
+    background-position: unset;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .homeBG {
+    background-size: cover;
+    height: 40vh;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .homeBG {
+    background-size: cover;
+    height: 70vh;
+  }
+  
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
+
+  .textCenter {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}

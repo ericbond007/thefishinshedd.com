@@ -1,0 +1,178 @@
+/* Bootstrap Default Styles */
+
+/* navbar */
+.navbar {
+  font-size: 2rem;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.navbar-default {
+    background-color: #043025;
+    border-color: #2B3C3B;
+    background-image: none;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #cbd2d1;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* Mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+          color: #333;
+    }
+    .navbar-brand {
+      /*background: url('./sheddLogo.jpg') center / contain no-repeat;*/
+      
+    }
+    #sheddNavText {
+      background-size: contain;
+      width: 80%;
+    }
+  .collapse {
+  transition: height 3.2s ease;
+}
+
+  }
+    .sheddNavimg {
+      display: none;
+      padding-top: 1rem;
+      width: 70%;
+      height: auto;
+      margin-left: 4rem;
+    }
+
+    img.sheddNavimg {
+      display: none;
+    }
+
+    .affix .sheddNavimg {
+      visibility: initial;
+      display: initial;
+    }
+
+
+.collapse {
+  transition: height 2.2s ease;
+}
+
+#sheddBar {
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  border-color: #043025;
+}
+
+#sheddNavText {
+  color: #fff;
+}
+
+.navbar-brand {
+  padding-top: unset;
+  color: #fff;
+
+}
+.navbar-mobile {
+}
+
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix > .nav {
+  text-align: vertical;
+}
+
+
+.affix {
+  position: relative;
+  top: 15%;
+}
+
+.nav-wrapper {
+  min-height: 5vh;
+}
+
+.container-fluid > .navbar-header {
+  margin-right: unset;
+}
+
+#navBrandText {
+}
+
+.keepLogoHidden img {
+  visibility: hidden;
+}
+
+
+@media screen and (max-width: 767px) {
+  #mobileNav {
+    display: initial;
+  }
+}
+
+.affix > img {
+  visibility: initial;
+  display: initial;
+}
+
+.mobileHidden {
+  display: block;
+}

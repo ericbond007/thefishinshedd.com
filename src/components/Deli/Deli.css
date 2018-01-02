@@ -1,0 +1,177 @@
+.deliPage {
+  padding-top: 15rem;
+}
+
+.deli {
+  color: #333;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+
+.pool {
+  margin: 0 auto;
+}
+
+.pool ul {
+  text-decoration: none;
+  list-style: none;
+  margin-left: -2rem;
+}
+
+
+.centeredcol ul {
+  list-style: none;
+}
+
+.centeredcol li {
+  text-align: left;
+  margin: .5rem;
+  font-size: 1.5rem;
+}
+
+.emma {
+  margin: auto;
+  width: 90%;
+}
+
+
+
+.deliWell {
+  margin-top: 5vh;
+}
+
+.lunch li {
+  list-style: none;
+  font-size: 1.4em;
+  padding: .4rem;
+  font-weight: normal;
+}
+
+.lunch p {
+  font-weight: normal;
+}
+
+.grabCooler {
+  margin-bottom: 4rem;
+}
+
+
+#tablemobile {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  #tabledesktop {
+    display: none;
+  }
+  #tablemobile {
+    display: initial;
+  }
+  .emma {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4rem;
+  }
+	.cuban {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+	.grabCooler {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+  .picnic {
+    width: 90%;
+    margin: auto;
+  margin: auto;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  }
+
+  .sheddSpecial {
+    text-align: unset;
+    text-indent: 4vh;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+ .cuban {
+   padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+ } 
+ .grabCooler {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+ } 
+ .emma {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+ }
+}
+
+.productsFirstP {
+  text-indent: 0vh;
+}
+
+.cookies h2 {
+  text-align: center;
+}
+
+.cookies li {
+  list-style: none;
+  font-size: 1.4em;
+  padding: .4rem;
+  text-align: center;
+}
+
+#cookiesFeatured {
+  font-size: 1.4em;
+  text-align: center;
+  font-weight: bold;
+}
+
+#deliCooler {
+  font-weight: normal;
+  margin-left: 4vh;
+  text-indent: 0vh;
+}
+
+.rowSpacing {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.caption p {
+  font-weight: unset; 
+}
+
+@media only screen and (min-width: 768px) {
+  .picnic {
+    margin: auto;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    width: 80%;
+  }
+  .outdoor {
+    padding: 2rem;
+    text-indent: 4vh;
+  }
+}
+
+.cookies {
+  text-align: justify;
+}
+
+.cookies ul {
+  text-align: left;
+}

@@ -1,0 +1,105 @@
+
+.fishing {
+  text-align: center;
+  color: #333;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.pool {
+  margin: 0 auto;
+}
+
+.pool ul {
+  text-decoration: none;
+  list-style: none;
+  margin-left: -2rem;
+}
+
+.fishinfo ul {
+  list-style: none;
+}
+
+.centeredcol ul {
+  list-style: none;
+}
+
+.centeredcol li {
+  text-align: left;
+  margin: .5rem;
+  font-size: 1.5rem;
+}
+
+.nicky {
+  margin-top: 3rem;
+}
+
+.noindent {
+  text-indent: 0vh;
+}
+
+.waterLevels li {
+	list-style: none;
+	text-align: center;
+	font-size: 2rem;
+}
+ .fishLic {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+  text-indent: 4vh;
+  
+}
+
+#llmobile {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  #lldesktop {
+  display: initial;
+  }
+.fishingPage {
+  padding-top: 25rem;
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .bobberSpinner {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+  .nicky {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+  #llmobile {
+    display: initial;
+  }
+  #lldesktop {
+    display: none;
+  }
+
+}
+
+.lakeLevels h2 {
+  text-align: center;
+}
+.lakeLevels p {
+  text-indent: 0vh;
+  text-align: center;
+}
+
+.tackleRow {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.fishingLinks {
+  padding-bottom: 2rem;
+}

@@ -1,0 +1,30 @@
+
+.pool {
+  font-size: 2rem;
+  color: black;
+}
+
+.pool ul {
+  text-decoration: none;
+  list-style: none;
+  margin-left: -2rem;
+}
+
+.fishinfo ul {
+  list-style: none;
+  text-align: left;
+}
+
+.centeredcol ul {
+  list-style: none;
+}
+
+.centeredcol li {
+  text-align: left;
+  margin: .5rem;
+  font-size: 1.5rem;
+}
+
+.indent {
+  text-indent: 3rem;
+}
