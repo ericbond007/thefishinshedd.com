@@ -12,8 +12,6 @@ const Hours = () => (
                     <p className="hours">Winter Hours:</p>
                     <p className="hours">Sunday - Thursday: 7AM - 6:30PM</p>
                     <p className="hours">Friday & Saturday: 7AM - 7:00PM or later!!</p>
-                    <p className="hours">Closed December 24 - December 31st</p>
-                    <p className="hours">Open January 1st!!!</p>
                     <p className="hours">Call us for more info: <a href="tel:+1-812-837-9474">812-837-9474</a></p>
                 </div>
               </Col>

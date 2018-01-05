@@ -17,7 +17,7 @@ class Home extends Component {
       <div>
         <SEO
           title="The Fishin Shedd"
-          description="Located near Paynetown SRA, The Fishin Shedd is your choice for live bait,     convenience items, and camping supplies. Featuring ethanol-free gasoline, The Shedd is open year round."
+          description="Located near Paynetown SRA, The Fishin Shedd is your choice for live bait, convenience items camping supplies, and ethanol-free gasoline. The Fishin Shedd is open year round."
           path="/"
         />
       

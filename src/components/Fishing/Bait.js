@@ -17,7 +17,7 @@ Our tackle selection includes a vast array of bobbers, weights, hooks, jigs, har
 						 <div className="lakeLevels" id="lldesktop">
 				    	 <h2><a rel="noopener noreferrer" target="_blank" href="http://water.weather.gov/ahps2/hydrograph.php?gage=moni3&wfo=ind">Lake Monroe Water Levels</a></h2>
     						<p>
-        Current Water Level: 536.5 ft
+        Current Water Level: 537.7ft
 					      </p>
 					      <p>
         Ideal Pool Level: 538 ft
