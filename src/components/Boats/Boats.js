@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Rental from './Rental';
-import { Jumbotron, Grid, Button } from 'react-bootstrap';
+import { Jumbotron, Grid } from 'react-bootstrap';
 import SEO from '../SEO';
 import './Boats.css';
 
