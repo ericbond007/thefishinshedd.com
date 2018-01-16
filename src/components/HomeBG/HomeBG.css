@@ -2,6 +2,7 @@
 .homeBG {
   height: 60vh;
   position: relative;
+  text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
