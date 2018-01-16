@@ -10,15 +10,15 @@ const Hours = () => (
  <source
    media="(min-width: 601px)"
    className="boxedShadow logo img-responsive img-rounded"
-   srcset="img/sheddLogo-md_1x.webp 1x, img/sheddLogo-md_2x.webp 2x"
+   srcSet="img/sheddLogo-md_1x.webp 1x, img/sheddLogo-md_2x.webp 2x"
    type="image/webp" />
  <source
    className="boxedShadow logo img-responsive img-rounded"
-   srcset="img/sheddLogo-sm_1x.webp 1x, img/sheddLogo-sm_2x.webp 2x"
+   srcSet="img/sheddLogo-sm_1x.webp 1x, img/sheddLogo-sm_2x.webp 2x"
    type="image/webp" />
  <img
    className="boxedShadow logo img-responsive img-rounded"
-   srcset="img/sheddLogo-sm_1x.jpg 600w"
+   srcSet="img/sheddLogo-sm_1x.jpg 600w"
    src="image_lg_1x.jpg"
    type="image/jpeg"
    alt="The Fishin Shedd" />
