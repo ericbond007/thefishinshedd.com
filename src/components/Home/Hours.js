@@ -10,8 +10,8 @@ const Hours = () => (
                 <div className="centered">
                   <h3 className="billHeader">The Fishin Shedd  is open year round!</h3>
                     <p className="hours">Winter Hours:</p>
-                    <p className="hours">Sunday - Thursday: 7AM - 6:30PM</p>
-                    <p className="hours">Friday & Saturday: 7AM - 7:00PM or later!!</p>
+                    <p className="hours">Sunday - Thursday: 6AM - 6:30PM</p>
+                    <p className="hours">Friday & Saturday: 6AM - 7:00PM or later!!</p>
                     <p className="hours">Call us for more info: <a href="tel:+1-812-837-9474">812-837-9474</a></p>
                 </div>
               </Col>

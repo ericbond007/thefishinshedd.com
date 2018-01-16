@@ -3,6 +3,7 @@ shedd.zip
 ebond.pem
 /jpgs
 .gitignore
+logs/
 
 # dependencies
 /node_modules
