@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import LazyLoad from 'react-lazyload';
 import {  Col, Row, Well } from 'react-bootstrap';
 
 const Hours = () => (
       <div>
           <Row className="leftjust">
             <Col sm={4}>
+              <LazyLoad height={200} once offset={150}>
                <picture>
  <source
    media="(min-width: 601px)"
@@ -23,6 +25,7 @@ const Hours = () => (
    type="image/jpeg"
    alt="The Fishin Shedd" />
   </picture>
+  </LazyLoad>
 
                 <div className="centered">
                   <h3 className="billHeader">The Fishin Shedd  is open year round!</h3>

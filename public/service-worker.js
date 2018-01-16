@@ -20,10 +20,7 @@ self.addEventListener('install', function(event) {
                 "/story",
                 assets[
                   "main.js",
-                  "main.css",
-                  "jquery.min.js",
-                  "bootstrap.min.js",
-                  "bootstrap.css"
+                  "main.css"
                 ]
               ]
               cache.addAll(urlsToCache)

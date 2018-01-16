@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import LazyLoad from 'react-lazyload';
 import {  Col, Row, Well, Image } from 'react-bootstrap';
 
 const Location = (state) => (
@@ -9,7 +10,26 @@ const Location = (state) => (
               <p>Come see us! Just 6 miles south of Bloomington</p>
                 <a rel="noopener noreferrer" target="_blank" href="https://www.google.com/maps/place/The+Fishin+Shedd/@39.0944962,-86.4237921,15z/data=!4m5!3m4!1s0x0:0xc93bcd5938c701d9!8m2!3d39.0926281!4d-86.4224884" >
                   <ScrollAnimation animateIn="fadeInRight"  animateOnce offset={60} >
-                    <Image responsive className="boxedShadow mapImg" src="sheddMap-min.png" alt="Map of The Fishin Shedd" />
+                    <LazyLoad height={200} once offset={150}>
+                      <picture>
+ <source
+   media="(min-width: 601px)"
+   className="boxedShadow mapImg img-responsive img-rounded"
+   srcSet="img/sheddMap-md_1x.webp 1x, img/sheddMap-md_2x.webp 2x"
+   type="image/webp" />
+ <source
+   className="boxedShadow mapImg img-responsive img-rounded"
+   srcSet="img/sheddMap-sm_1x.webp 1x, img/sheddMap-sm_2x.webp 2x"
+   type="image/webp" />
+ <img
+   className="boxedShadow mapImg img-responsive img-rounded"
+   srcSet="img/sheddMap-sm_1x.jpg 600w"
+   src="image_lg_1x.jpg"
+   type="image/jpeg"
+   alt="Map of The Fishin Shedd" />
+  </picture>
+
+                  </LazyLoad>
                   </ScrollAnimation>
                   <p>
                   4855 S State Road 446
