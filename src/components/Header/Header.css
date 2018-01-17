@@ -18,7 +18,7 @@
 font-weight: bold;
 }
 
-@font-face {
+/*@font-face {
   font-family: FishinShedd-Regular;
   src: url(FishinShedd-Regular.ttf);
 }
@@ -27,7 +27,7 @@ font-weight: bold;
   font-family: FishinShedd-Regular;
   font-size: 10rem;
   color: #fff;
-}
+}*/
 
 .headerSmall {
   visibility: hidden;
