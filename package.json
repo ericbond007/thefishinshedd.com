@@ -6,7 +6,6 @@
   "dependencies": {
     "ajv": "^6.0.1",
     "babel-core": "^6.26.0",
-    "babel-eslint": "^8.2.1",
     "babel-preset-react-app": "^3.1.1",
     "babel-runtime": "^6.26.0",
     "compression": "^1.7.1",
@@ -21,8 +20,6 @@
     "react-lazyload": "^2.3.0",
     "react-media": "^1.6.1",
     "react-overlays": "^0.8.3",
-    "react-parallax-effect": "^1.0.6",
-    "react-progressive-bg-image": "^2.1.2",
     "react-router-bootstrap": "^0.24.4",
     "react-router-dom": "^4.2.2",
     "react-snap": "^1.10.0",
@@ -32,12 +29,6 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "eslint": "^4.15.0",
-    "eslint-config-react-app": "^2.1.0",
-    "eslint-plugin-flowtype": "^2.41.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.5.1",
     "react-scripts": "^1.1.0"
   },
   "reactSnap": {

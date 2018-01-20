@@ -18,9 +18,10 @@ self.addEventListener('install', function(event) {
                 "/deli",
                 "/fishing",
                 "/story",
+                "/img/*",
                 assets[
-                  "main.js",
-                  "main.css"
+                  "main.*.js",
+                  "main.*.css"
                 ]
               ]
               cache.addAll(urlsToCache)
