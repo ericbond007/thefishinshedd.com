@@ -2,34 +2,22 @@ const doCache = true;
 
 const CACHE_NAME = 'thefishinshedd';
 
+const urlsToCache = [
+  '/',
+  '/products',
+  '/deli',
+  '/fishing',
+  '/boats',
+  '/story'
+];
+
 self.addEventListener('install', function(event) {
-  if (doCache) {
-    event.waitUntil(
-      caches.open(CACHE_NAME)
-        .then(function(cache) {
-          fetch("asset-manifest.json")
-            .then(response => {
-              response.json()
-            })
-            .then(assets => {
-              const urlsToCache = [
-                "/",
-                "/products",
-                "/deli",
-                "/fishing",
-                "/story",
-                "/img/*",
-                assets[
-                  "main.*.js",
-                  "main.*.css"
-                ]
-              ]
-              cache.addAll(urlsToCache)
-              console.log('Congrats! Your webpage has been cached locally!');
-            })
-        })
-    );
-  }
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+    .then(function(cache) {
+      return cache.addAll(urlsToCache);
+    })
+  );
 });
 
 
