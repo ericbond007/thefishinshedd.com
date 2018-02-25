@@ -1,7 +1,9 @@
 import React from 'react';
 import {  Col, Row, Well, Image } from 'react-bootstrap';
 
-const Bait = () => (
+const Bait = ({ water }) => {
+  if (water.value !== undefined) {
+    return (
       <div>
           <Row className="leftjust">
             <Col sm={8} smPush={4} className="fishinfo">
@@ -17,8 +19,9 @@ Our tackle selection includes a vast array of bobbers, weights, hooks, jigs, har
 						 <div className="lakeLevels" id="lldesktop">
 				    	 <h2><a rel="noopener noreferrer" target="_blank" href="http://water.weather.gov/ahps2/hydrograph.php?gage=moni3&wfo=ind">Lake Monroe Water Levels</a></h2>
     						<p>
-        Current Water Level: 537.7ft
+                  Current Water Level: {water.value.timeSeries[0].values[0].value[0].value} ft
 					      </p>
+                <p>Water Lever Measurements are updated every hour. This page always stays updated!</p>
 					      <p>
         Ideal Pool Level: 538 ft
       					</p>
@@ -38,7 +41,11 @@ Our tackle selection includes a vast array of bobbers, weights, hooks, jigs, har
 							  </div>
             </Col>
           </Row>
-      </div>
-);
+        </div>
+        );
+        } else {
+          return null;
+        }
+        };
 
 export default Bait;

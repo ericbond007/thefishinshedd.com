@@ -5,11 +5,20 @@ import Bait from './Bait';
 import FishLinks from './FishLinks';
 import Licensce from './Licensce';
 import './Fishing.css';
+import axios from 'axios';
 
 class Fishing extends Component {
+  state = {
+    water: {}
+  }
 
   componentDidMount(prevProps) {
     window.scrollTo(0, 0)
+    axios.get(`https://waterservices.usgs.gov/nwis/iv/?format=json&sites=03372400&siteStatus=all`)
+      .then(res => {
+        const water = res.data;
+        this.setState({ water });
+      })
   }
 
   render() {
@@ -25,7 +34,7 @@ class Fishing extends Component {
         <Jumbotron  className="fishing">
           <h1 className="pageHeader animated slideInUp">Last Stop For Live Bait!</h1>
         
-          <Bait />
+          <Bait water={this.state.water}/>
           <FishLinks />
           <Licensce />
 
