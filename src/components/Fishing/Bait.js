@@ -38,6 +38,9 @@ Our tackle selection includes a vast array of bobbers, weights, hooks, jigs, har
 						      <p>
         Ideal Pool Level: 538 ft
 						      </p>
+                  <a rel="noopener noreferrer" target="_blank" href="http://in.gov/dnr/parklake/2954.htm">
+                    DNR Lake Monroe Website
+                  </a>
 							  </div>
             </Col>
           </Row>
