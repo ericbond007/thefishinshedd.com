@@ -48,7 +48,7 @@
     "go": "react-scripts build",
     "snap": "react-snap",
     "lint": "eslint .",
-    "build": "react-scripts build && react-snap && rm build/static/js/*.map && rm build/static/css/*.map",
+    "build": "react-scripts build  && rm build/static/js/*.map && rm build/static/css/*.map",
     "deploy": "aws s3 sync build/ s3://thefishinshedd.com --cache-control max-age=604800 --exclude \"img/*\" && aws s3 sync build/ s3://www.thefishinshedd.com --cache-control max-age=604800 --exclude \"img/*\"",
     "deployImg": "aws s3 sync build/ s3://thefishinshedd.com --cache-control max-age=604800 && aws s3 sync build/ s3://www.thefishinshedd.com --cache-control max-age=604800",
     "test": "react-scripts test --env=jsdom",
