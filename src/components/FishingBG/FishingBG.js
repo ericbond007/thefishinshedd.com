@@ -22,7 +22,7 @@ class FishingBG extends Component {
    srcSet="img/frontPorch-sm_1x.jpg 600w,
    img/frontPorch-md_1x.jpg 900w,
    img/frontPorch-lg_1x.jpg 1440w"
-   src="image_lg_1x.jpg"
+   src="img/frontPorch-lg_1x.jpg"
    type="image/jpeg"
    alt="Minnow Tanks at The Shedd" />
 </picture>

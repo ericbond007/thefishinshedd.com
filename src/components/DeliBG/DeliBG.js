@@ -21,7 +21,7 @@ class DeliBG extends Component {
    srcSet="img/deliShot-sm_1x.jpg 600w,
    img/deliShot-md_1x.jpg 900w,
    img/deliShot-lg_1x.jpg 1440w"
-   src="image_lg_1x.jpg"
+   src="img/deliShot-lg_1x.jpg"
    type="image/jpeg"
    alt="The Fishin Shedd Deli" />
 </picture>
