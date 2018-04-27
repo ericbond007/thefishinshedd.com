@@ -23,7 +23,7 @@ class Home extends Component {
       
         <Grid fluid className="homePage">
           <Jumbotron className="home">
-            <h1 className="pageHeader animated slideInUp">Celebrating Our 50th Season!</h1>
+            <h1 className="pageHeader animated slideInUp">Entering our 51st Season!</h1>
 
             <Hours />
             
