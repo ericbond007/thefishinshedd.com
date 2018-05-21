@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import LazyLoad from 'react-lazyload';
-import {  Col, Row, Well, Image } from 'react-bootstrap';
+import {  Col, Row, Well } from 'react-bootstrap';
 
 const Location = (state) => (
       <div>
@@ -47,7 +47,7 @@ const Location = (state) => (
 									 </p>
 									 <h2 className="center bigP">"All in the Family!"</h2>
                 </Well>
-            		<h3 className="center">Dick Shedd's Fall Weather Forecast</h3>
+            		<h3 className="center">Dick Shedd's Summer Weather Forecast</h3>
 		            <p>
 Alternating periods of sunshine and clouds. Rain at times. Dark at night. Brighter when sun is shining, Warmer       during the day.
 		            </p>

@@ -29,6 +29,9 @@ Our gas pumps feature ethanol-free gasoline year round. Even our diesel is ethan
 					        <p>
 The Shedd sells a variety of bait & tackle, too. Everything from hooks and sinkers to pre-strung fishing  poles ready to go. Our in-house tackle master stays up to date with the latest fishing gear and tackle to satisfy    your fishing needs.  
 									</p>
+                  <p>
+                    Boat accessories include pull behind tubes, ski ropes, life jackets, and boat ladders. We have a little bit of everything so stop by to check out what's in stock or give us a call!
+                  </p>
                 </div>
              </Well>
             </Col>
