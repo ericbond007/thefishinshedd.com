@@ -32,6 +32,9 @@ const Hours = () => (
                     <p className="hours">Spring Hours:</p>
                     <p className="hours">Sunday - Thursday: 6AM - 8:30PM</p>
                     <p className="hours">Friday & Saturday: 6AM - 9:30PM</p>
+                    <p className="hours">Memorial Day Weekend:</p>
+                    <p className="hours">Friday: 6AM - 9:30PM</p>
+                    <p className="hours">Saturday & Sunday: 6AM - 10:0PM</p>
 
                     <p className="hours">Call us for more info: <a href="tel:+1-812-837-9474">812-837-9474</a></p>
                 </div>
