@@ -9,7 +9,7 @@ const Bait = ({ water }) => {
             <Col sm={8} smPush={4} className="fishinfo">
               <Well bsSize="small">
 								<p className="leftjust">
-The Fishin Shedd has a large selection of bait & tackle for every level fisherman. Bass and crappie      minnows are available year-round, as are giant nightcrawlers and beemoths. Our rotating live bait
+The Fishin Shedd has a large selection of bait & tackle for every level of fisherman. Bass and crappie      minnows are available year-round, as are giant nightcrawlers and beemoths. Our rotating live bait
     stock includes creek chubs, live crickets, shiners, and goldfish. Feel free to give us a call to find out what   we have in stock that day!
 			          </p>
       			    <p className="leftjust">
@@ -32,9 +32,10 @@ Our tackle selection includes a vast array of bobbers, weights, hooks, jigs, har
 							<Image rounded responsive className="boxedShadow bobberSpinner" src="bobberSpinner-min.png" alt="Bobber Spinner" />
               	<div className="lakeLevels" id="llmobile">
 							    <h2><a rel="noopener noreferrer" target="_blank" href="http://water.weather.gov/ahps2/hydrograph.php?gage=moni3&wfo=ind">Lake Monroe Water Levels</a></h2>
-							    <p>
-        Current Water Level: 537 ft
-						      </p>
+    						<p>
+                  Current Water Level: {water.value.timeSeries[0].values[0].value[0].value} ft
+					      </p>
+                <p>Water Lever Measurements are updated every hour. This page always stays updated!</p>
 						      <p>
         Ideal Pool Level: 538 ft
 						      </p>

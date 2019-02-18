@@ -8,7 +8,7 @@ const Menu = () => (
             <Col sm={8} smPush={4}>
               <Well bsSize="small">
 								 <p>
-Come in and try a hand-made sandwich from The Fishin Shedd! We have an ever expanding deli menu  and have fresh, hot sandwiches ready for you on a daily basis. Want something quick? Grab a pre-made bite from our   cooler; we are happy to add toppings like lettuce or tomato!
+Come in and try a hand-made sandwich from The Fishin Shedd! We have an ever expanding deli menu  and have fresh, hot sandwiches ready for you on a daily basis. Want something quick? Grab a pre-made bite from our   cooler; we are happy to add toppings upon request!
                  </p>
 								<DeliMenu />
              </Well>

@@ -21,7 +21,7 @@
 @media screen and (orientation: landscape) {
   .productsBG {
     background-size: cover;
-    height: 70vh;
+    height: 80vh;
   }
 
 }

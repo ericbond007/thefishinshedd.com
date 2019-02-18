@@ -64,6 +64,11 @@
 }
 }
 
+.fishingPage {
+  min-height: 85vh;
+  margin-top: 20rem;
+}
+
 @media only screen and (max-width: 767px) {
   .bobberSpinner {
     width: 90%;

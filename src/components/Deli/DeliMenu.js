@@ -20,9 +20,6 @@ class DeliMenu extends Component {
                           Hot Ham & Cheese Sandwich
                         </li>
                         <li>
-                          Breakfast sandwich
-                        </li>
-                        <li>
                           Cuban
                         </li>
                         <li>
@@ -35,10 +32,16 @@ class DeliMenu extends Component {
                           The Wilbur
                         </li>
                         <li>
-                          Classic BLT
+                          Pulled Chicken
                         </li>
                         <li>
-                          Cobb Salad
+                          Reuben
+                        </li>
+                        <li>
+                          Tuna Melt
+                        </li>
+                        <li>
+                          Classic BLT
                         </li>
                         <li>
                           Grilled Cheese
@@ -53,13 +56,19 @@ class DeliMenu extends Component {
                       </p>
                       <ul>
                         <li>
-                          Deluxe Breakfast Platter
+                          Deluxe Breakfast
                         </li>
                         <li>
-                          Fishin Shedd Manhattan
+                          _Sunrise Sandwich
+                        </li>
+                        <li>
+                        Big Bowl
                         </li>
                         <li>
                           Breakfast Burrito
+                        </li>
+                        <li>
+                        Veggie Burrito
                         </li>
                         <li>
                           Biscuits & Sausage Gravy
@@ -68,7 +77,7 @@ class DeliMenu extends Component {
                           Bagel w/ cream cheese
                         </li>
                       </ul>
-                      <p id="deliCooler">Don't forget about our grab 'n' go sandwiches! We make our chicken, ham, and egg salad in house!</p>
+                      <p id="deliCooler">Don't forget about our grab 'n' go sandwiches! We make our chicken, ham, egg, and tuna salad in house!</p>
               
                     </div>
                   </div>
