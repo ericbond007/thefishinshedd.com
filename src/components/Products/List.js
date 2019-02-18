@@ -37,7 +37,7 @@ The Shedd sells a variety of bait & tackle, too. Everything from hooks and sinke
             </Col>
                 
             <Col sm={4} smPull={8}>
-							<Image src="emmaReg-min.png" responsive rounded className="boxedShadow emmaReg" alt="Emma at the register" />
+							<Image src="sheddInside-min.png" responsive rounded className="boxedShadow emmaReg" alt="Inside The Shedd" />
 
             </Col>
           </Row>
