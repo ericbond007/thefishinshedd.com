@@ -4,7 +4,8 @@ import {  Col, Row, Well, Image } from 'react-bootstrap';
 const Storage = () => (
       <div>
           <Row>
-            <Col sm={4} className="comingSoon">
+            <Col sm={4} className="comingSoon marineCont">
+							<Image src="marine-min.png" responsive rounded className="marineSign boxedShadow" alt="446 Marine" />
             </Col>
                 
             <Col sm={8}>
