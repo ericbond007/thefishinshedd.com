@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Rental from './Rental';
+import Storage from './Storage';
 import { Jumbotron, Grid } from 'react-bootstrap';
 import SEO from '../SEO';
 import './Boats.css';
@@ -17,8 +18,8 @@ class Boats extends Component {
       <Grid fluid className="boatsPage">
       <Jumbotron className="boats">
         <h1 className="display-3 pageHeader">Lake Monroe Boat Rental & Storage</h1>
-          
           <Rental />
+      <Storage />
       </Jumbotron>
       </Grid>
 </div>

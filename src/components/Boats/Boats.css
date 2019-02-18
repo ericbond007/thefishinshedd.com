@@ -35,3 +35,16 @@
   }
 }
 
+.centeredTitle {
+  text-align: center;
+}
+
+.infoList { 
+  columns: 2;
+  list-style-type: none ;
+  padding: 0;
+  margin-left: 1rem;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: left;
+}

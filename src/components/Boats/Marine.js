@@ -10,12 +10,10 @@ const Rental = () => (
                 
             <Col sm={8}>
 							<Well bsSize="small" className="boatsembedd">
-                   <p style={{textAlign: 'center', fontSize: '3rem' }}><a rel="noopener noreferrer" target="_blank" href="http://lakemonroeboatrental.com"><strong>Lake Monroe Boat Rental</strong></a> </p>
-  <p>
-  Looking to get out on the water but don’t want to commit to the cost of owning your own boat? Lake Monroe Boat Rental has you covered!
-  </p>
+								 <p>
+                   <a rel="noopener noreferrer" target="_blank" href="http://lakemonroeboatrental.com"><strong>Lake Monroe Boat Rental</strong></a> 
   <div>
-  <ul className="infoList list-unstyled">
+  <ul style={{ columns: '2' }}>
     <li>812-837-9909</li>
      <li>Pontoons</li>
   <li> Double decker pontoons</li>
@@ -31,6 +29,11 @@ const Rental = () => (
   </div>
  
   
+                 </p>
+                 <p>
+                  </p>
+                  <p>
+                  </p>
 							</Well>
 
             </Col>
