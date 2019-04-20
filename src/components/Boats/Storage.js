@@ -10,7 +10,7 @@ const Storage = () => (
                 
             <Col sm={8}>
 							<Well bsSize="small" className="boatsembedd">
-                   <p style={{textAlign: 'center', fontSize: '3rem' }}><strong>Lake Monroe Boat Storage</strong></p>
+                   <p style={{textAlign: 'center', fontSize: '3rem' }}><strong>Boat Storage</strong></p>
   <p>
   Need a place to store your boat or RV camper? We offer indoor and outdoor parking at two of our sister companies, Lake Monroe Boat Storage and 446 Marine.
   </p>
@@ -24,7 +24,7 @@ const Storage = () => (
   <li>Shrink wrapping</li>
   <li>Motor winterization/summerization</li>
   <li>24 hour access/self parking</li>
-  <li>Boat launch/retrival service</li>
+  <li>Boat launch/retrieval service</li>
   </ul>
   </div>
 
@@ -38,7 +38,7 @@ const Storage = () => (
   <li>Shrink wrapping</li>
   <li>Motor winterization/summerization</li>
   <li>7 day access/employee parking</li>
-  <li>Boat launch/retrival service</li>
+  <li>Boat launch/retrieval service</li>
   </ul>
   </div>
 
