@@ -29,9 +29,15 @@ const Hours = () => (
 
                 <div className="centered">
                   <h3 className="billHeader">The Fishin Shedd  is open year round!</h3>
+<<<<<<< HEAD
                     <p className="hours">Early Spring Hours:</p>
                     <p className="hours">Sunday - Thursday: 6AM - 6:00PM</p>
                     <p className="hours">Friday & Saturday: 6AM - 7:30PM</p>
+=======
+                    <p className="hours">Summer Hours:</p>
+                    <p className="hours">Sunday - Thursday: 6AM - 8:00PM</p>
+                    <p className="hours">Friday & Saturday: 6AM - 9:30PM</p>
+>>>>>>> 2a2c5e0f3358217760574766e03e3fab3145e844
 
                     <p className="hours">Call us for more info: <a href="tel:+1-812-837-9474">812-837-9474</a></p>
                 </div>
