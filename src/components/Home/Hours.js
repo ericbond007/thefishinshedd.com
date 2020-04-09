@@ -28,10 +28,15 @@ const Hours = () => (
   </LazyLoad>
 
                 <div className="centered">
-                  <h3 className="billHeader">The Fishin Shedd is open year round!</h3>
+                <h2 className="billHeader">Dearest Shedd Hedds</h2>
+  <p className="hours">
+  We have made the difficult decision to close our doors until further notice. We've made this decision to help preserve the health of our staff, their families, and our family, you the customers. We will miss you dearly. Stay sane, stay safe and we'll see you on the other side!
+  </p>
+  {/* <h3 className="billHeader">The Fishin Shedd is open year round!</h3>
                     <p className="hours">Spring Hours:</p>
                     <p className="hours">All Week: 6AM - 7:00PM</p>
                     <p className="hours">Call us for more info: <a href="tel:+1-812-837-9474">812-837-9474</a></p>
+                    */}
                 </div>
               </Col>
                 
