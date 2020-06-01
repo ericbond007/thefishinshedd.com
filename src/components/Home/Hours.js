@@ -28,9 +28,10 @@ const Hours = () => (
   </LazyLoad>
 
                 <div className="centered">
-                  <h3 className="billHeader">The Fishin Shedd is open year round!</h3>
-                    <p className="hours">Spring Hours:</p>
-                    <p className="hours">All Week: 6AM - 6:00PM</p>
+                  <h3 className="billHeader">The Fishin Shedd  is open year round!</h3>
+                    <p className="hours">Summer Hours:</p>
+                    <p className="hours">Sunday - Thursday: 6AM - 7:00PM</p>
+                    <p className="hours">Friday & Saturday: 6AM - 8:30PM</p>
                     <p className="hours">Call us for more info: <a href="tel:+1-812-837-9474">812-837-9474</a></p>
                 </div>
               </Col>
