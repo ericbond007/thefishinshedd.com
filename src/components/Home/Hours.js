@@ -32,16 +32,10 @@ const Hours = () => (
 
         <div className="centered">
           <h3 className="billHeader">
-            Due to a positive COVID-19 test by one of our employees, we will
-            unfortunately have to remain closed until all of our staff has been
-            tested and quarantined. We apologize for any inconvenience and thank
-            you for your understanding.
+            The Fishin Shedd is currently closed, but we plan to reopen Monday,
+            Sept 21. See you soon!
           </h3>
-          <h3 className="billHeader">
-            We plan to reopen on Monday, Sept 21 once all of our staff have
-            tested negative. We will let you know as soon as we are open for
-            business!
-          </h3>
+          <h3 className="billHeader"></h3>
           //<h3 className="billHeader">The Fishin Shedd is open year round!</h3>
           // <p className="hours">Summer Hours:</p>
           // <p className="hours">Sunday - Thursday: 6AM - 7:00PM</p>
@@ -60,10 +54,19 @@ const Hours = () => (
             <Link to="/products">Convenience & More</Link>
           </h2>
           <p>
-            The Fishin Shedd is your home for all things bait & tackle at Lake
-            Monroe. We carry a large variety of camping and fishing gear for all
-            your outdoor adventures. Here at The Shedd we have a little bit of
-            everything. Grocery items, ice, firewood, beer & wine and much more!
+            Due to a positive COVID-19 test by one of our employees, we will
+            unfortunately have to remain closed until all of our staff has been
+            tested and quarantined. We apologize for any inconvenience and thank
+            you for your understanding. //The Fishin Shedd is your home for all
+            things bait & tackle at Lake //Monroe. We carry a large variety of
+            camping and fishing gear for all //your outdoor adventures. Here at
+            The Shedd we have a little bit of //everything. Grocery items, ice,
+            firewood, beer & wine and much more!
+          </p>
+          <p>
+            We plan to reopen on Monday, Sept 21 once all of our staff have
+            tested negative. We will let you know as soon as we are open for
+            business!
           </p>
           <h2 className="wellHeader">
             <Link to="/deli">The Fishin Shedd Deli</Link>
