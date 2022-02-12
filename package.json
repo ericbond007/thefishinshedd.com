@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://thefishinshedd.com",
   "dependencies": {
-    "ajv": "^6.0.1",
+    "ajv": "^6.12.3",
     "axios": "^0.18.0",
     "babel-core": "^6.26.0",
     "babel-preset-react-app": "^3.1.1",
